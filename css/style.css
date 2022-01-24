@@ -36,7 +36,7 @@ header{
   height: 80px;
   line-height: 80px;
 }
-.header-container{
+.header-container, .main-container{
   width: 80%;
   height: 100%;
   min-width: 600px;
@@ -79,6 +79,7 @@ header nav{
 .jumbotron{
   height: 55vh;
   text-align: center;
+  margin-bottom: 70px;
 }
 .jumbotron img{
   width: 100%;
@@ -96,3 +97,20 @@ header nav{
   margin: 10px;
 }
 /* end jumbotron */
+/* start container */
+.main-container{
+  height: 55vh;
+}
+.main-container img{
+  width: 60%;
+}
+.main-description{
+  width: 30%;
+  padding: 35px;
+}
+.main-description h1{
+  margin-bottom: 20px;
+}
+.main-description p{
+  font-size: 0.9rem;  
+}
