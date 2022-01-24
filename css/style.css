@@ -3,3 +3,96 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Whitney', sans-serif;
+}
+/* float */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.float-l{
+  float: left;
+}
+/* end float */
+/* position */
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* end position */
+/* start header */
+header{
+  background-color: #255ee9;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+}
+.main-container{
+  width: 80%;
+  height: 100%;
+  min-width: 600px;
+  margin: 0 auto;
+}
+header .main-container img{
+  vertical-align: middle;
+}
+.main-nav{
+  width: calc(100% - 184.02px);
+  text-align: center;
+}
+header .main-container li{
+  display: inline;
+  list-style: none;
+  margin: 0 20px;
+}
+header .main-container a{
+  text-decoration: none;
+  color: white;
+}
+/* end header */
+/* button */
+.form-button{
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.background-white{
+  background-color: white;
+}
+.background-black{
+  background-color: black;
+  color: white;
+}
+/* end button */
+/* start main */
+/* start jumbotron */
+.jumbotron{
+  height: 55vh;
+  text-align: center;
+}
+.jumbotron img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.jumbo-description{
+  color: white;
+}
+.jumbotron h1{
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.jumbo-description *:not(i,h1){
+  margin: 10px;
+}
+/* end jumbotron */
