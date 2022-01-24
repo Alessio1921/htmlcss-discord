@@ -15,6 +15,9 @@ body{
 .float-l{
   float: left;
 }
+.float-r{
+  float: right;
+}
 /* end float */
 /* position */
 .relative{
@@ -36,9 +39,8 @@ header{
   height: 80px;
   line-height: 80px;
 }
-.header-container, .main-container{
-  width: 80%;
-  height: 100%;
+.header-container, .main-container,.big-container, footer{
+  width: 75%;
   min-width: 600px;
   margin: 0 auto;
 }
@@ -98,19 +100,32 @@ header nav{
 }
 /* end jumbotron */
 /* start container */
-.main-container{
-  height: 55vh;
+section.small{
+  height: 65vh;
 }
 .main-container img{
-  width: 60%;
+  width: 55%;
 }
 .main-description{
-  width: 30%;
-  padding: 35px;
+  width: 35%;
+  font-size: 1.5rem;
+  padding: 30px 0;
 }
 .main-description h1{
   margin-bottom: 20px;
 }
 .main-description p{
-  font-size: 0.9rem;  
+  font-size: 1.2rem;  
+}
+section:nth-child(odd){
+  background-color: #f6f6f6;
+}
+.main-description-big{
+  text-align: center;
+}
+.img-big{
+  height: 80%;
+}
+.big{
+  height: 65vh;
 }
